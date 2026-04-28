@@ -1,20 +1,21 @@
 # 🚀 Trust & Safety: Toxic Content Detection (ML vs LLM)
 
-## Overview
-This project compares Machine Learning and LLM-based approaches for detecting toxic content in user comments.
+A content moderation system that detects toxic user comments using Machine Learning and LLM-based approaches.
 
-## Methods
-- TF-IDF + Logistic Regression (ML)
+## 📊 Results
+- ML Model F1-score: ~0.80
+- LLM-based approach improves contextual detection
+
+## ⚙️ Methods
+- TF-IDF + Logistic Regression (ML baseline)
 - Rule-based LLM simulation
 
-## Results
-- ML F1-score: ~0.80
-- LLM approach captures explicit toxicity better
-
-## Key Insights
+## 🔍 Key Insights
 - ML struggles with contextual toxicity  
-- LLM is more flexible but less consistent  
-- Hybrid systems can improve moderation  
+- LLM captures explicit abusive language better  
+- Trade-off between consistency (ML) and flexibility (LLM)
 
-## Tech Stack
-Python, Pandas, Scikit-learn, NLP
+## 🎯 Use Case
+- Content moderation (YouTube-like systems)
+- Trust & Safety pipelines
+- Abuse and spam detection
